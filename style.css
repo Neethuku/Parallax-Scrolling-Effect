@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/1583582/pexels-photo-1583582.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+  
+    justify-content: center;
+    
+}
+
+.container h1 {
+    mix-blend-mode: overlay ;
+    margin: 15px;
+}
+
+.container2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/1089451/pexels-photo-1089451.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-container{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.card{
+    height: 200px;
+    width: 30%;
+    background-color: rgb(5, 56, 51);
+    border-radius: 15px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode: overlay;
+}
+
+
+.card h4{
+    color: rgb(217, 217, 217); text-align: center;
+    margin: 50px;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        height: 450px;
+    }
+
+    .card{
+        margin-bottom: 20px;
+        height: 350px;
+        width: 40%;
+    }
+    
+  }
+  
